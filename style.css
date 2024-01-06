@@ -1,0 +1,47 @@
+
+ 
+ .nav-link {
+  font-weight:500 !important;
+  transition:1s;
+  }
+  
+  nav {
+    background-color: #1b1f24;
+    text-align: center;
+    position: fixed !important;
+    width:100%;
+    align-items: center;
+    
+    z-index:100000;
+  }
+
+  .nav-link:hover{
+    color:rgb(236, 156, 8) !important;
+    
+  }
+
+  .Home-Banner{
+    background-color:rgb(5, 6, 29);
+    
+  }
+
+  .action-movie,.actions{
+    background-color:rgb(5, 6, 29);
+    color:White;
+
+  }
+
+  .anima{
+    
+    margin:20px;
+  }
+
+  @media only screen and (max-width:600px){
+    .cardm{
+    align-items: center;
+    width:400px !important;
+    left:25px;
+
+    
+  }
+  }
